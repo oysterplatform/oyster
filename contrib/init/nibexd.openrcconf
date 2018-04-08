@@ -1,0 +1,26 @@
+# /etc/conf.d/oysterd: config file for /etc/init.d/oysterd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/oyster/oyster.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/oysterd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/oysterd.pid"
+
+# Where to write oysterd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/oysterd"
+
+# User and group to own oysterd process
+#BITCOIND_USER="oyster"
+#BITCOIND_GROUP="oyster"
+
+# Path to oysterd executable
+#BITCOIND_BIN="/usr/bin/oysterd"
+
+# Nice value to run oysterd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

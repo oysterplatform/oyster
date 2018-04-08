@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=oyster
+Comment=oyster P2P Cryptocurrency
+Comment[fr]=oyster, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=oyster, eşten eşe kriptografik sanal para birimi
+Exec=oyster-qt %u
+Terminal=false
+Type=Application
+Icon=oyster128
+MimeType=x-scheme-handler/oyster;
+Categories=Office;Finance;
