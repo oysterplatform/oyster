@@ -461,8 +461,8 @@ if test x$use_hardening != xno; then
     ;;
   esac
 
-  CXXFLAGS="$CXXFLAGS $HARDENED_CXXFLAGS"
-  CPPFLAGS="$CPPFLAGS $HARDENED_CPPFLAGS"
+  CXXFLAGS="$CXXFLAGS $HARDENED_CXXFLAGS -Wno-deprecated-declarations"
+  CPPFLAGS="$CPPFLAGS $HARDENED_CPPFLAGS -Wno-deprecated-declarations"
   LDFLAGS="$LDFLAGS $HARDENED_LDFLAGS"
   OBJCXXFLAGS="$CXXFLAGS"
 fi
