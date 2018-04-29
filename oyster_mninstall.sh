@@ -10,7 +10,7 @@ COIN_REPO='https://github.com/oysterplatform/oyster.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='oyster'
-COIN_PORT=11122
+COIN_PORT=11199
 RPC_PORT=12458
 
 NODEIP=$(curl -s4 icanhazip.com)
