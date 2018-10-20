@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/oyster-project/oyster-detached-sigs.git"
+- "url": "https://github.com/oysterplatform/oyster-detached-sigs.git"
   "dir": "signature"
 files:
 - "oyster-osx-unsigned.tar.gz"

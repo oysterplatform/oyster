@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/oyster-project/oyster.git"
+- "url": "https://github.com/oysterplatform/oyster.git"
   "dir": "oyster"
 files:
 - "MacOSX10.11.sdk.tar.gz"

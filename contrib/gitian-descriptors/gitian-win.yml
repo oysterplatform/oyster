@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/oyster-project/oyster.git"
+- "url": "https://github.com/oysterplatform/oyster.git"
   "dir": "oyster"
 files: []
 script: |
